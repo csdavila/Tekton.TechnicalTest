@@ -23,6 +23,18 @@ Para poder ejecutar este proyecto, es necesario tener instalado el SDK para .Net
   ```
 
   2. Abrir el archivo de solución Tekton.TechnicalTest.sln en Visual Studio.
+  
+  3. El comando para añadir migrations en la base de datos desde la consola posicionada en el proyecto principal es:
+  
+  ```bash 
+        dotnet ef migrations add MigrationName -o Persistence/Migrations -p ..\Tekton.TechnicalTest.Infrastructure\
+  ```
+  
+  4. Asegurarse que la base de datos esté sincronizada con:
+  
+  ```bash 
+        dotnet ef database update
+  ```
 
 ## Configuración
 
