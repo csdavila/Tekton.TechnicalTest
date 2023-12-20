@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.TechnicalTest.Api", "Tekton.TechnicalTest.Api\Tekton.TechnicalTest.Api.csproj", "{8F1B0823-165E-4B80-877E-8943F69C79C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.TechnicalTest.Domain", "Tekton.TechnicalTest.Domain\Tekton.TechnicalTest.Domain.csproj", "{43AC5EA4-558E-40B9-8276-7575386104B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.TechnicalTest.Application", "Tekton.TechnicalTest.Application\Tekton.TechnicalTest.Application.csproj", "{E4D142CB-C66C-43FA-9CCE-8D9BBE104D82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.TechnicalTest.Infrastructure", "Tekton.TechnicalTest.Infrastructure\Tekton.TechnicalTest.Infrastructure.csproj", "{782C68BB-E369-4BE4-8EF2-FA3D050013EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tekton.TechnicalTest.Shared", "Tekton.TechnicalTest.Shared\Tekton.TechnicalTest.Shared.csproj", "{E50D77E2-71EE-4DA4-A103-2FD9C4669A03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{070F278B-20F5-4A2B-AD43-C915AAAD9F6D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekton.TechnicalTest.UnitTests", "Tekton.TechnicalTest.UnitTests\Tekton.TechnicalTest.UnitTests.csproj", "{8A7EED74-6C70-4686-9043-947718BF90BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F1B0823-165E-4B80-877E-8943F69C79C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1B0823-165E-4B80-877E-8943F69C79C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1B0823-165E-4B80-877E-8943F69C79C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1B0823-165E-4B80-877E-8943F69C79C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AC5EA4-558E-40B9-8276-7575386104B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AC5EA4-558E-40B9-8276-7575386104B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AC5EA4-558E-40B9-8276-7575386104B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AC5EA4-558E-40B9-8276-7575386104B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D142CB-C66C-43FA-9CCE-8D9BBE104D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D142CB-C66C-43FA-9CCE-8D9BBE104D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D142CB-C66C-43FA-9CCE-8D9BBE104D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D142CB-C66C-43FA-9CCE-8D9BBE104D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782C68BB-E369-4BE4-8EF2-FA3D050013EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782C68BB-E369-4BE4-8EF2-FA3D050013EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782C68BB-E369-4BE4-8EF2-FA3D050013EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782C68BB-E369-4BE4-8EF2-FA3D050013EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50D77E2-71EE-4DA4-A103-2FD9C4669A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50D77E2-71EE-4DA4-A103-2FD9C4669A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50D77E2-71EE-4DA4-A103-2FD9C4669A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50D77E2-71EE-4DA4-A103-2FD9C4669A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7EED74-6C70-4686-9043-947718BF90BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7EED74-6C70-4686-9043-947718BF90BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7EED74-6C70-4686-9043-947718BF90BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7EED74-6C70-4686-9043-947718BF90BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38A84F24-7C01-4925-AB35-2F54506DC2CC}
+	EndGlobalSection
+EndGlobal
